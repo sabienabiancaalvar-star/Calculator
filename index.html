@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <div id="history" class="history"></div>
+        <div id="current" class="current">0</div>
+      </div>
+
+      <div class="buttons">
+        <button id="clear" class="wide function">Clear</button>
+        <button id="backspace" class="function">⌫</button>
+        <button class="operator" data-op="/">÷</button>
+
+        <button class="digit">7</button>
+        <button class="digit">8</button>
+        <button class="digit">9</button>
+        <button class="operator" data-op="*">×</button>
+
+        <button class="digit">4</button>
+        <button class="digit">5</button>
+        <button class="digit">6</button>
+        <button class="operator" data-op="-">−</button>
+
+        <button class="digit">1</button>
+        <button class="digit">2</button>
+        <button class="digit">3</button>
+        <button class="operator" data-op="+">+</button>
+
+        <button class="digit wide">0</button>
+        <button id="decimal">.</button>
+        <button id="equals" class="equals">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
